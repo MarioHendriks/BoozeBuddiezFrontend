@@ -60,7 +60,7 @@ export default {
     background-color: #F9E3B4;    
     border-radius: 20px;
     box-shadow: 2px 2px;
-    background-image: url('../../assets/images/boozebuddieslogo.png');
+    background-image: url('../../assets/images/boozebuddieslogo.webp');
     background-position: center;
     margin-bottom: 10px;
     min-height: 500px;
@@ -76,17 +76,17 @@ export default {
     border: 3px solid rgb(230, 158, 4);
 }
 #button_map{
-    background-image: url('../../assets/images/map_icon.png');
+    background-image: url('../../assets/images/map_icon.webp');
    background-position: center;
     background-size: auto;
 }
 #button_timeline{
-    background-image: url('../../assets/images/timeline_icon.png');
+    background-image: url('../../assets/images/timeline_icon.webp');
    background-position: center;
     background-size: auto;
 }
 #button_friends{
-    background-image: url('../../assets/images/friends_icon.png');
+    background-image: url('../../assets/images/friends_icon.webp');
    background-position: center;
     background-size: auto;
 }

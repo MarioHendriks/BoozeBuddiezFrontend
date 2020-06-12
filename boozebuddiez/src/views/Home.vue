@@ -9,12 +9,12 @@
           </div>
         </div>
       </div>
-      <img alt="booze logo" style="max-width:100%" src="../assets/images/homelogo.png" />
+      <img src="../assets/images/newhome.svg" style="max-width:100%"  alt="booze logo" >
 
       <!-- Check that the SDK client is not currently loading before accessing is methods -->
       <div v-if="!$auth.loading">
         <!-- show login when not authenticated -->
-        <img class="loginbutton" src="../assets/images/googlelogin.png" @click="login" />
+        <img class="loginbutton" src="../assets/images/googlelogin.webp" @click="login" />
       </div>
     </div>
   </div>

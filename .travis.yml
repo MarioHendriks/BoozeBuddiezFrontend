@@ -9,6 +9,9 @@ install:
   - npm install
 script:
   - npm run test:unit
+  
+after_script:
+  - npm run build
 
 after_success:
   - wget https://raw.githubusercontent.com/DiscordHooks/travis-ci-discord-webhook/master/send.sh
