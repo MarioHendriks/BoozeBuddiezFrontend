@@ -8,7 +8,7 @@ install:
   - cd boozebuddiez/
   - npm install
 script:
-  - npm run coveralls
+  - npm run test:unit
 
 after_success:
   - wget https://raw.githubusercontent.com/DiscordHooks/travis-ci-discord-webhook/master/send.sh
