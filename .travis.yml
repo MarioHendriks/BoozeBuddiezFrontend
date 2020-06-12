@@ -8,6 +8,5 @@ script:
   - cd boozebuddiez/
   - npm install
   - npm run test:unit
-
 after_script:
-  - cat ./coverage/lcov.info | coveralls
+  - npm run coveralls
