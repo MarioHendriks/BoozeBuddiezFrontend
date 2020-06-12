@@ -4,11 +4,11 @@ node_js:
 cache:
   directories:
   - node_modules
-script:
+install:
   - cd boozebuddiez/
   - npm install
+script:
   - npm run test:unit
-  - npm run coveralls
 
 after_success:
   - wget https://raw.githubusercontent.com/DiscordHooks/travis-ci-discord-webhook/master/send.sh
